@@ -1,14 +1,24 @@
 {
  "author": "Enrique Nieto Martínez",
  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "nuxt": "3.0.0-rc.12"
-  }
+ "scripts": {
+  "build": "nuxt build",
+  "dev": "nuxt dev",
+  "generate": "nuxt generate",
+  "preview": "nuxt preview",
+  "postinstall": "nuxt prepare"
+ },
+ "devDependencies": {
+  "@nuxt/test-utils-edge": "^3.0.0-rc.13-27781436.1f6b3be",
+  "@nuxtjs/eslint-config-typescript": "^11.0.0",
+  "@typescript-eslint/eslint-plugin": "^5.41.0",
+  "@typescript-eslint/parser": "^5.41.0",
+  "eslint": "^8.26.0",
+  "eslint-plugin-vue": "^9.6.0",
+  "nuxt": "3.0.0-rc.12",
+  "sass": "^1.55.0",
+  "typescript": "^4.8.4",
+  "vite-plugin-eslint": "^1.8.1",
+  "vitest": "^0.24.3"
+ }
 }
