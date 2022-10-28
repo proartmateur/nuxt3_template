@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>Welcome to the homepage Index</h1>
-    <p>{{ appConfig.title }}</p>
-    <img width="200" height="auto" src="/img/logo3.svg" alt="Virtualagoon Logo">
-    <img width="100" height="auto" src="~/assets/img/logo3.svg" alt="Discover Nuxt 3">
+    <img width="200" height="200" src="/img/logo3.svg" alt="Virtualagoon Logo">
+    <p>Logo:</p>
+    <img width="100" height="100" src="~/assets/img/logo3.svg" alt="Discover Nuxt 3">
     <AppAlert>
       This is an auto-imported component
     </AppAlert>
