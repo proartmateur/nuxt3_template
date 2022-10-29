@@ -10,13 +10,14 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "webstorm-integration": "vitest --watch --reporter=dot --reporter=json --outputFile=.vitest-result.json"
-  }
-,
+  },
   "devDependencies": {
     "@nuxt/test-utils-edge": "^3.0.0-rc.13-27781436.1f6b3be",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
+    "@vitest/ui": "^0.24.3",
     "eslint": "^8.26.0",
     "eslint-plugin-vue": "^9.6.0",
     "jsdom": "^20.0.1",
@@ -25,5 +26,8 @@
     "typescript": "^4.8.4",
     "vite-plugin-eslint": "^1.8.1",
     "vitest": "^0.24.3"
+  },
+  "wallaby": {
+    "trace": true
   }
 }
