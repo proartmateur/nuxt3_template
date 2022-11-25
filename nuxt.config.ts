@@ -2,7 +2,6 @@
 import eslintPlugin from 'vite-plugin-eslint'
 
 export default defineNuxtConfig({
-
   runtimeConfig: {
     // The private keys which are only available server-side
     apiSecret: '123',
@@ -42,5 +41,6 @@ export default defineNuxtConfig({
       mode: 'out-in' // default
     }
   },
-  ssr: false
+  ssr: false,
+  modules: ['@nuxtjs/tailwindcss']
 })
